@@ -1,0 +1,21 @@
+﻿<Window x:Class="PDN3.DodajEdytujFilm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PDN3"
+        mc:Ignorable="d"
+        Title="DodajEdytujFilm" Height="200" Width="200">
+    <Grid>
+        <TextBox Name="TytulBox" HorizontalAlignment="Left" Margin="76,10,0,0" TextWrapping="Wrap" Text="{Binding Tytul}" VerticalAlignment="Top" Width="114"/>
+        <TextBox Name="RezyserBox" HorizontalAlignment="Left" Margin="76,40,0,0" TextWrapping="Wrap" Text="{Binding Rezyser}" VerticalAlignment="Top" Width="114"/>
+        <TextBox Name="WydawcaBox" HorizontalAlignment="Left" Margin="76,70,0,0" TextWrapping="Wrap" Text="{Binding Wydawca}" VerticalAlignment="Top" Width="114"/>
+        <TextBox Name="NosnikBox" HorizontalAlignment="Left" Margin="76,100,0,0" TextWrapping="Wrap" Text="{Binding Nosnik}" VerticalAlignment="Top" Width="114"/>
+        <Label Content="Tytul" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Height="26"/>
+        <Label Content="Rezyser" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Height="26"/>
+        <Label Content="Wydawca" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Height="26"/>
+        <Label Content="Nosnik" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Height="26"/>
+        <Button Name="OkButton" Content="Ok" HorizontalAlignment="Center" Margin="0,143,0,0" VerticalAlignment="Top" Click="OkButton_Click"/>
+
+    </Grid>
+</Window>

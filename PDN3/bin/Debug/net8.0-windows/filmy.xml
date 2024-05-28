@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFilm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Film>
+    <Tytul>Film1</Tytul>
+    <Rezyser>S. Spielberg</Rezyser>
+    <Wydawca>Duża firma</Wydawca>
+    <Nosnik>DVD</Nosnik>
+  </Film>
+  <Film>
+    <Tytul>Mamma mia</Tytul>
+    <Rezyser>unknown</Rezyser>
+    <Wydawca>studioE</Wydawca>
+    <Nosnik>DVD</Nosnik>
+  </Film>
+</ArrayOfFilm>
